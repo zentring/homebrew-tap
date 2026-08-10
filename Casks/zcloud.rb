@@ -1,9 +1,9 @@
 cask "zcloud" do
   arch arm: "arm64", intel: "amd64"
 
-  version "0.27.0"
-  sha256 arm:   "ef59d98139f6194105887a4833651f3ec2a369baec8f84d49e0181b99b9df5c6",
-         intel: "40d2e8ce55174cda953aacdcbe6da14b6a01eed80ae40aeee1eeba1ddc840fb3"
+  version "0.28.0"
+  sha256 arm:   "62b9706762de57f2d1c6b3660cab418f5d5e8ff0f133c111e6be7c9d157ed471",
+         intel: "6ac0f13ae26f493a6af9bc637dc08ed5b6bd457018946b1fceb1d94dbb500572"
 
   url "https://github.com/zentring/zcloud/releases/download/v#{version}/zcloud-darwin-#{arch}",
       verified: "github.com/zentring/zcloud/"
